@@ -1,0 +1,209 @@
+.admin_wrap {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.admin_wrap > h1 {
+  color: #002e6e;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+}
+.option{
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    width: 90%;
+}
+.btn_add{
+    height: 40px;
+    width: 80px;
+    border: none;
+    width: 40%;
+    font-size: 13px;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    margin: 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  /* Pseudo elements for icons */
+  .btn:before {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+  }
+  .btn-1 {
+    background: #3498db;
+    color: #fff;
+  }
+  
+  .btn-1:hover {
+    background: #2980b9;
+  }
+  
+  .btn-1:active {
+    background: #2980b9;
+    top: 2px;
+  }
+  
+  .btn-1:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+  }
+  
+  
+  /* Button 2 */
+  .btn-2 {
+    background: #2ecc71;
+    color: #fff;
+  }
+  
+  .btn-2:hover {
+    background: #27ae60;
+  }
+  
+  .btn-2:active {
+    background: #27ae60;
+    top: 2px;
+  }
+  
+  .btn-2:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+  }
+
+  .add_user_wrap{
+    background-color: #2980b9;
+    height: 200px;
+    width: 80%;
+    border-radius: 4px;
+    display : flex;
+    justify-content : top;
+    align-items : left;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .add_user_wrap2{
+    background-color: #2ecc71;
+    height: 200px;
+    width: 80%;
+    border-radius: 4px;
+    display : flex;
+    justify-content : top;
+    align-items : left;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .username{
+    display: flex;
+    justify-content : center;
+    align-items : center;
+    width: 100%;
+  }
+
+  label{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  .username > label{
+    width: 50%;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+
+  .username > input{
+    width: 50%;
+    height: 20px;
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+
+  .balance{
+    display: flex;
+    justify-content : center;
+    align-items : center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .balance > label{
+    width: 50%;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+
+  .balance > input{
+    width: 50%;
+    height: 20px;
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+
+.btn_add_new{
+  margin-top:20px;
+  height: 40px;
+  width: 140px;
+  align-self: center;
+  background-color: white;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}

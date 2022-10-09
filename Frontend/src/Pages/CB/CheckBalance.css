@@ -1,0 +1,29 @@
+.cb_wrap{
+    height: 100%;
+    width: 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    flex-direction: column;
+}
+
+.enter{
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    font-family: Ubuntu;
+    width: 80%;
+    margin: 20px 0;
+}
+
+.enter > label {
+    color: black;
+    font-size: 15px;
+}
+
+.enter > input {
+    height: 25px;
+    width: 150px;
+    font-size: 15px;
+    padding: 10px;
+}

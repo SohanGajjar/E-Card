@@ -1,0 +1,71 @@
+.student_wrap{
+    height: 100%;
+    width: 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    flex-direction: column;
+}
+
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: cyan;
+    font-family: Ubuntu;
+    font-weight: 700;
+    color: black;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.dropdown{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    margin: 20px;
+    width: 90%;
+}
+
+.dropdown > h5 {
+    margin: 10px;
+}
+
+.dropdown > div {
+    margin: 10px;
+}
+.transaction{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.transaction > span {
+    font-size : 50px;
+}
+
+.transaction > input {
+    font-size: 50px;
+    width: 170px;
+    border:none;
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+.btn_pay {
+    background-color : #002E6E !important;
+    width: 200px !important;
+    height: 50px !important;
+    padding: 0 !important;
+    display : flex !important;
+    justify-content : center !important;
+    align-items : center !important;
+    margin-top: 50px !important;
+}
